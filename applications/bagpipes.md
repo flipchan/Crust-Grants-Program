@@ -8,20 +8,18 @@
 
 ### Overview
 
-Please provide the following:
-  * A project name
-  * A brief description of your project.
-  * An indication of how your project relates to / integrates into Crust.
-  * An indication of why your team is interested in creating this project.
+Bagpipes is a web3 drag and drop DApp builder, allowing anyone to design and build web3 flows and business logic that interacts with the blockchain, without needing to learn programming. So far, Bagpipes has integrated over 17 chains, allowing users to cherry pick the best features from each chain, allowing users to create powerful cross-chain applications. We now want to enable Decentralized interoperable storage with Crust via Bagpipes. 
 
-### Project Details 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (with urls or IPFS file CIDs included) at following :
+**Project Links:**
 
-* Mockups/designs of any UI components
-* Data models / API specifications of the core functionality
-* An overview of the technology stack to be used
-* Documentation of core components, protocols, architecture, etc. to be deployed
-* PoC/MVP or other relevant prior work or research on the topic
+[Bagpipes.io Landing page](https://bagpipes.io)
+
+[Documentation](https://docs.bagpipes.io)
+
+[**Bagpipes on Twitter**](http://x.com/bagpipesorg)
+
+[**Bagpipes Github**](https://github.com/XcmSend)
+
 
 ### Ecosystem Fit 
 
@@ -163,9 +161,23 @@ Query any storage item on Crust using ChainQuery:
 | 7 | Docker | Public docker image | 10 |
 | **Total:** | | | **120** |
 
-Feature information:
-1. xStorage pallet as custom action
+### Feature Information
 
+#### xStorage Pallet Custom Action
+- Utilize xStorage pallet on Crust chain for storage orders across Parachains
+- Ideal for new users with example on [Crust Wiki](https://wiki.crust.network/docs/en/buildParachainBasedCrossChainSolution#solution)
+
+#### Order Status Query
+- Easily query IPFS CID through market pallet
+
+#### IPFS Functionality
+- Upload files to IPFS using Bagpipes
+- PIN IPFS CID through Crust
+
+#### Development and Documentation
+- Unit and transaction testing
+- Public documentation of milestone features
+- Public docker image
 
 ## Milestone 3: Bagpipes goes crusty, github ci releases   
 * **Estimated Duration:** 2-3 weeks   
@@ -192,23 +204,10 @@ https://hub.docker.com/r/xcmsend/xcmsend
 Documentation published here:     
 https://docs.bagpipes.io/ 
 
-Videos, How-to’s, P
+Videos, How-to’s and public documentation and user examples with template links will be provided for all milestones. 
 
 
 
 ## Future Plans
 
-Please include here
-
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
-
-
-## Additional Information 
-
-Any additional information that you think is relevant to this application that hasn't already been included.
-
-Possible additional information to include:
-
-* Are there are any teams who have already contributed (financially) to your project?
-* Do you have a community of users or open-source developers who are contributing to your project?
+The goal of Bagpipes is to be the no-code workflow builder for web3.
