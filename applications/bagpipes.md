@@ -2,8 +2,8 @@
 
 * **Project Name:** Bagpipes    
 * **Team Name:** Rust Syndicate LLC
-* **Payment Address:** Ethereum address 
-* **Receivable Token:** CRU or USDT
+* **Payment Address:** Ethereum address: 0xa68db75204262bfc29aac76cd546e2500ba2acbd   
+* **Receivable Token:** USDT
 
 
 ### Overview
